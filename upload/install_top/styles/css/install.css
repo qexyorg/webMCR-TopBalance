@@ -1,0 +1,6 @@
+.top-content .top-install { font-family: verdana; font-size: 12px; }
+.top-content .top-install h4 { color: #555; }
+.top-content .top-install .reinst { margin: 10px; }
+.top-content .top-install .ins-submit { text-align: right; margin-top: 20px; }
+.top-content .top-install .ins-menu { width: 418px; height: 76px; border: 2px double #ccc; border-radius: 4px; background: url("../img/menu.png") no-repeat; margin: 10px; }
+.top-content .top-install .top-logo { width: 165px; height: 173px; background: url("../img/logo.png") no-repeat; float: right; }

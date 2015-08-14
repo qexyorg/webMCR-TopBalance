@@ -1,0 +1,41 @@
+<div class="top-install">
+	<h4>Установка - Шаг 1</h4>
+	<?php echo $data['WRITE_MENU']; ?>
+	<?php echo $data['WRITE_CONFIGS']; ?>
+	<?php echo $data['WRITE_CFG']; ?>
+	<div class="top-settings">
+		<form method="post">
+			<table class="table table-hover table-bordered">
+
+				<tbody>
+					<tr>
+						<td class="name">Название модуля
+							<div class="desc">- Название модуля топа богачей (Отображается в заголовке страницы и хлебных крошках)</div>
+						</td>
+						<td class="inputs"><input type="text" name="title" placeholder="Название" value="<?php echo $this->cfg['title']; ?>" required></td>
+					</tr>
+
+					<tr>
+						<td class="name">Систему пользователей
+							<div class="desc">- Если вы используете модуль "<a href="https://github.com/qexyorg/webMCR-User-System" target="_blank">User System</a>", то при просмотре профелей, ссылки будут вести на модуль системы пользователей</div>
+						</td>
+						<td class="inputs">
+							<select name="use_us">
+								<option value="0">Нет</option>
+								<option value="1">Да</option>
+							</select>
+						</td>
+					</tr>
+
+					<tr>
+						<td class="submits" colspan="2">
+							<input type="submit" class="btn btn-primary" name="submit" value="Далее">
+						</td>
+					</tr>
+				</tbody>
+
+			</table>
+		</form>
+	</div>
+
+</div>
