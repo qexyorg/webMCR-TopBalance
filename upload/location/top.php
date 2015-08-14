@@ -79,7 +79,7 @@ switch($do){
 	// Load installation
 	case 'install':
 		if(!$cfg['install'] && !isset($_SESSION['step_finish'])){ $api->notify("Установка уже произведена", "", "Упс!", 4); }
-		require_once(MCR_ROOT."install_users/install.class.php");
+		require_once(MCR_ROOT."install_top/install.class.php");
 		$module			= new module($api);
 		$mod_content	= $module->_list();
 		$mod_title		= $module->title;
